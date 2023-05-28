@@ -1,4 +1,4 @@
-./gpt_academic/docs/gradio-3.32.2-py3-none-any.whl
+gradio-stable-fork
 tiktoken>=0.3.3
 requests[socks]
 transformers
