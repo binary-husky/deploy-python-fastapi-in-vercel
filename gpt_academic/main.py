@@ -194,7 +194,6 @@ def get_app():
             else: webbrowser.open_new_tab(f"http://localhost:{PORT}")
         threading.Thread(target=open, name="open-browser", daemon=True).start()
         threading.Thread(target=auto_update, name="self-upgrade", daemon=True).start()
-        threading.Thread(target=warm_up_modules, name="warm-up", daemon=True).start()
 
     auto_opentab_delay()
     # demo.queue(concurrency_count=CONCURRENT_COUNT).launch(
