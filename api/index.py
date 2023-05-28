@@ -1,1 +1,2 @@
-from src.index import app
+from gpt_academic.main import get_app
+app = get_app()
