@@ -9,7 +9,7 @@ services:
     image: ghcr.io/binary-husky/gpt_academic_nolocal:master
     environment:
       # 请查阅 `config.py` 以查看所有的配置信息
-      API_KEY:                  '    sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                                            '
+      API_KEY:                  '    REDACTED_SECRET_KEY                                            '
       USE_PROXY:                '    True                                                                                           '
       proxies:                  '    { "http": "socks5h://localhost:10880", "https": "socks5h://localhost:10880", }                 '
       LLM_MODEL:                '    gpt-3.5-turbo                                                                                  '
@@ -36,7 +36,7 @@ services:
     image: ghcr.io/binary-husky/gpt_academic_chatglm_moss:master
     environment:
       # 请查阅 `config.py` 以查看所有的配置信息
-      API_KEY:                  '    sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,fkxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  '
+      API_KEY:                  '    REDACTED_SECRET_KEY,fkxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  '
       USE_PROXY:                '    True                                                                                           '
       proxies:                  '    { "http": "socks5h://localhost:10880", "https": "socks5h://localhost:10880", }                 '
       LLM_MODEL:                '    gpt-3.5-turbo                                                                                  '
@@ -66,7 +66,7 @@ services:
     image: fuqingxu/gpt_academic:jittorllms    # [option 2] 如果需要运行ChatGLM本地模型
     environment:
       # 请查阅 `config.py` 以查看所有的配置信息
-      API_KEY:                  '    sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,fkxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  '
+      API_KEY:                  '    REDACTED_SECRET_KEY,fkxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  '
       USE_PROXY:                '    True                                                                                           '
       proxies:                  '    { "http": "socks5h://localhost:10880", "https": "socks5h://localhost:10880", }                 '
       LLM_MODEL:                '    gpt-3.5-turbo                                                                                  '

@@ -52,7 +52,7 @@ RUN python3  -c 'from check_proxy import warm_up_modules; warm_up_modules()'
 # LOCAL_MODEL_DEVICE 是选择chatglm等本地模型运行的设备，可选 cpu 和 cuda
 # [说明: 以下内容与`config.py`一一对应，请查阅config.py来完成一下配置的填写]
 RUN echo ' \n\
-API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,fkxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" \n\
+API_KEY = "REDACTED_SECRET_KEY,fkxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" \n\
 USE_PROXY = True \n\
 LLM_MODEL = "chatglm" \n\
 LOCAL_MODEL_DEVICE = "cuda" \n\
